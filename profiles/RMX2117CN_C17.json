@@ -1,0 +1,283 @@
+{
+  "model": "RMX2117CN",
+  "build": "RMX2117_11_C.17",
+  "android": "11",
+  "hardware_code": 2454,
+  "page_size": 4096,
+  "ufs_user_size": 127959826432,
+  "partitions": {
+    "recovery": {
+      "offset": 32768,
+      "length": 134217728
+    },
+    "misc": {
+      "offset": 134250496,
+      "length": 524288
+    },
+    "para": {
+      "offset": 134774784,
+      "length": 524288
+    },
+    "opporeserve1": {
+      "offset": 135299072,
+      "length": 8388608
+    },
+    "opporeserve2": {
+      "offset": 143687680,
+      "length": 134217728
+    },
+    "opporeserve3": {
+      "offset": 277905408,
+      "length": 67108864
+    },
+    "oppo_custom": {
+      "offset": 345014272,
+      "length": 1048576
+    },
+    "expdb": {
+      "offset": 346062848,
+      "length": 20971520
+    },
+    "frp": {
+      "offset": 367034368,
+      "length": 1048576
+    },
+    "vbmeta": {
+      "offset": 368082944,
+      "length": 8388608
+    },
+    "vbmeta_system": {
+      "offset": 376471552,
+      "length": 8388608
+    },
+    "vbmeta_vendor": {
+      "offset": 384860160,
+      "length": 8388608
+    },
+    "nvcfg": {
+      "offset": 393248768,
+      "length": 33554432
+    },
+    "nvdata": {
+      "offset": 426803200,
+      "length": 67108864
+    },
+    "md_udc": {
+      "offset": 493912064,
+      "length": 23699456
+    },
+    "metadata": {
+      "offset": 517611520,
+      "length": 33554432
+    },
+    "persist": {
+      "offset": 551165952,
+      "length": 52813824
+    },
+    "protect1": {
+      "offset": 603979776,
+      "length": 8388608
+    },
+    "protect2": {
+      "offset": 612368384,
+      "length": 8388608
+    },
+    "seccfg": {
+      "offset": 620756992,
+      "length": 8388608
+    },
+    "otp": {
+      "offset": 629145600,
+      "length": 50331648
+    },
+    "sec1": {
+      "offset": 679477248,
+      "length": 2097152
+    },
+    "proinfo": {
+      "offset": 681574400,
+      "length": 3145728
+    },
+    "nvram": {
+      "offset": 684720128,
+      "length": 67108864
+    },
+    "main_cdt": {
+      "offset": 751828992,
+      "length": 8388608
+    },
+    "special_preload": {
+      "offset": 760217600,
+      "length": 469762048
+    },
+    "my_custom": {
+      "offset": 1229979648,
+      "length": 67108864
+    },
+    "opporeserve5": {
+      "offset": 1297088512,
+      "length": 33554432
+    },
+    "opporeserve6": {
+      "offset": 1330642944,
+      "length": 67108864
+    },
+    "ocdt": {
+      "offset": 1397751808,
+      "length": 8388608
+    },
+    "cdt_engineering": {
+      "offset": 1406140416,
+      "length": 8388608
+    },
+    "md1img": {
+      "offset": 1414529024,
+      "length": 209715200
+    },
+    "boot_para": {
+      "offset": 1624244224,
+      "length": 27262976
+    },
+    "spmfw": {
+      "offset": 1651507200,
+      "length": 1048576
+    },
+    "audio_dsp": {
+      "offset": 1652555776,
+      "length": 8388608
+    },
+    "pi_img": {
+      "offset": 1660944384,
+      "length": 1048576
+    },
+    "dpm_1": {
+      "offset": 1661992960,
+      "length": 4194304
+    },
+    "dpm_2": {
+      "offset": 1666187264,
+      "length": 4194304
+    },
+    "scp1": {
+      "offset": 1670381568,
+      "length": 6291456
+    },
+    "scp2": {
+      "offset": 1676673024,
+      "length": 6291456
+    },
+    "sspm_1": {
+      "offset": 1682964480,
+      "length": 1048576
+    },
+    "sspm_2": {
+      "offset": 1684013056,
+      "length": 1048576
+    },
+    "mcupm_1": {
+      "offset": 1685061632,
+      "length": 1048576
+    },
+    "mcupm_2": {
+      "offset": 1686110208,
+      "length": 1048576
+    },
+    "cam_vpu1": {
+      "offset": 1687158784,
+      "length": 20971520
+    },
+    "cam_vpu2": {
+      "offset": 1708130304,
+      "length": 20971520
+    },
+    "cam_vpu3": {
+      "offset": 1729101824,
+      "length": 20971520
+    },
+    "gz1": {
+      "offset": 1750073344,
+      "length": 33554432
+    },
+    "gz2": {
+      "offset": 1783627776,
+      "length": 33554432
+    },
+    "lk": {
+      "offset": 1817182208,
+      "length": 5242880
+    },
+    "lk2": {
+      "offset": 1822425088,
+      "length": 5242880
+    },
+    "boot": {
+      "offset": 1827667968,
+      "length": 33554432
+    },
+    "logo": {
+      "offset": 1861222400,
+      "length": 16777216
+    },
+    "dtbo": {
+      "offset": 1877999616,
+      "length": 8388608
+    },
+    "tee1": {
+      "offset": 1886388224,
+      "length": 5242880
+    },
+    "tee2": {
+      "offset": 1891631104,
+      "length": 12582912
+    },
+    "super": {
+      "offset": 1904214016,
+      "length": 8136949760
+    },
+    "cache": {
+      "offset": 10041163776,
+      "length": 469762048
+    },
+    "userdata": {
+      "offset": 10510925824,
+      "length": 117432090624
+    },
+    "flashinfo": {
+      "offset": 127943016448,
+      "length": 16777216
+    }
+  },
+  "stock_files": {
+    "boot.bin": {
+      "size": 33554432,
+      "sha256": "514ea0bfd707bcaf93b5a00b688bf87317fe6e54dfbba9d707f240458e272b29"
+    },
+    "lk.bin": {
+      "size": 5242880,
+      "sha256": "767fb3e8414ce47e04e63d15d78d596ad87ac6eba99258bfdad2a6515349aad8"
+    },
+    "lk2.bin": {
+      "size": 5242880,
+      "sha256": "767fb3e8414ce47e04e63d15d78d596ad87ac6eba99258bfdad2a6515349aad8"
+    },
+    "recovery.bin": {
+      "size": 134217728,
+      "sha256": "72f6dee755e7a0f6924f53a621f3c64c14b4f52148fa9d9333e5cddbf7bdabdf"
+    },
+    "vbmeta.bin": {
+      "size": 8388608,
+      "sha256": "21b7c18cfc731b154831576e8f902451a50ff239adb38b7c007fc68a8b51eed4"
+    },
+    "vbmeta_system.bin": {
+      "size": 8388608,
+      "sha256": "c62b53ab290f808af2a04136398f1f26fa12a0606dff435e358c4035dbe39acb"
+    },
+    "vbmeta_vendor.bin": {
+      "size": 8388608,
+      "sha256": "aa5001e4dd23dbff142d2eb50552f5abb4f8c7ee019f381e7b5b5b6b68788749"
+    }
+  },
+  "original_boot_sha256": "0a7fde26ab0679cab7189d21cc5f5e1d9e0cdf4daf63799b81eb269d402ce559",
+  "patched_boot_sha256": "3c2c2a8a24de6e2fd6b9f5be7f4b34eea577cebfe420119ddaf25457d51d2eb6",
+  "upstream_script_sha256": "f9308e21b65be38dca9fe46e86373690c709a42807612bc493f608e38fe61d7f"
+}

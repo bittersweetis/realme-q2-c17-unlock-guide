@@ -1,0 +1,20 @@
+{
+  "mtkclient": {
+    "url": "https://github.com/bkerler/mtkclient/archive/refs/tags/v2.1.4.1.zip",
+    "sha256": "2971f4074e99667af72d90f4ae53633fc1aa93179bd185e387689449f237cd7a",
+    "version": "v2.1.4.1"
+  },
+  "platform_tools": {
+    "url": "https://dl.google.com/android/repository/platform-tools_r37.0.1-win.zip",
+    "sha256": "45f4d63113e895ebde0c90f194099a4676b6ac653bd28d54314a9e022bbc1a99",
+    "version": "37.0.1"
+  },
+  "usbdk": {
+    "url": "https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi",
+    "sha256": "91f6f695e1e13c656024e6d3b55620bf08d8835ef05ee0496935ba6bb62466a5"
+  },
+  "fastboot_driver": {
+    "url": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/driver/drvs/2016/07/20896854_0c68721e8170c38c9f8055949befbe082f5ee981.cab",
+    "sha256": "bcebf41bfc2c081544cc3ce4ebdc0b8d890f6411c1d2b925dc2f6b6a0ccd6c5b"
+  }
+}

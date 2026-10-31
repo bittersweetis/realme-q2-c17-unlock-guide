@@ -1,0 +1,11 @@
+wheel
+setuptools
+pyusb
+pycryptodome
+pycryptodomex
+colorama
+pyserial
+keystone-engine
+capstone
+unicorn
+fusepy
