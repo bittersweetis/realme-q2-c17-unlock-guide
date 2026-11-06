@@ -37,9 +37,9 @@ realme UI3.0 真我Q2降级2.0回退包.zip
 1313770a2618a2b4037e8b1e297cbc07a07790a7fe838fa957f85a2294add646
 ```
 
-本地完整配套文件夹中的 `firmware/oplus_ota_downgrade.zip` 就是这份外层原包，仅改了文件名。若使用不含固件的源码目录，请自行通过可信渠道取得匹配的原始回退包；本项目没有已验证的官方固件直链，不编造下载地址。
+本地完整配套文件夹中的 `firmware/oplus_ota_downgrade.zip` 就是这份外层原包，仅改了文件名。只下载了 GitHub 源码时，从 [C.17 回退包发布页](https://github.com/bittersweetis/realme-q2-c17-unlock-guide/releases/tag/firmware-c17-rollback)下载两份附件，按发布页命令合并为 `oplus_ota_downgrade.zip`，再按下一节校验。
 
-厂商固件与开源脚本分别处理：固件不适用本项目的 AGPL 许可，并已被 `.gitignore` 排除。上传 GitHub 时保留固件说明、文件名和哈希，源码安装脚本也不会自动下载或安装手机固件。
+固件不适用本项目的 AGPL 许可。源码安装脚本只准备电脑端工具，固件通过发布页单独提供。
 
 ## 3. 在电脑校验原包
 

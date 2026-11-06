@@ -1,6 +1,6 @@
 # 发布与隐私
 
-源码目录可供上传 GitHub；本地完整文件夹另带 Windows 运行依赖及厂商回退原包。按用户要求，后续直接交付文件夹，不再生成新的整包 ZIP。本 GitHub 仓库只提交经检查的公开源码；本地固件和工具依赖没有上传。
+源码目录可供上传 GitHub。本地完整文件夹另带 Windows 运行依赖及厂商回退原包。Git 历史只提交经检查的公开源码，回退原包以两份原始字节附件通过 [GitHub Releases](https://github.com/bittersweetis/realme-q2-c17-unlock-guide/releases/tag/firmware-c17-rollback)提供。
 
 公开包使用允许清单生成，没有复制私人 4.48 GB 归档。打包时检查了文件名、文本及实际设备标识，不含 phone backup、hwparam、DA 状态、NV、手机镜像、账户或验证码资料。
 

@@ -37,7 +37,7 @@ F.12（Android 12）→ 回退 C.17（Android 11）
 
 ## 从 GitHub 开始
 
-本仓库提供教程、源码、测试和校验信息。Windows 运行依赖、驱动及厂商固件没有放入 Git 历史；安装脚本从所列官方来源取得工具，手机固件需自行取得并核对。
+本仓库提供教程、源码、测试和校验信息。需要从 F.12 降到 C.17 时，请到 [GitHub Releases 下载 C.17 外层回退包](https://github.com/bittersweetis/realme-q2-c17-unlock-guide/releases/tag/firmware-c17-rollback)，按发布页说明合并两份附件，再核对 SHA-256。安装脚本从所列官方来源取得电脑端工具。
 
 先安装 Python 3.10～3.13 x64，再在 PowerShell 执行：
 
@@ -55,7 +55,7 @@ cd realme-q2-c17-unlock-guide
 - **源码目录**：适合放到 GitHub，含教程、脚本、测试、公开机型配置和许可证。
 - **本地完整配套文件夹**：另带 Python x64、现有依赖、干净的 MTKClient v2.1.4.1、ADB/Fastboot、驱动资料和 C.17 回退原包。上传源码时依赖和固件由 `.gitignore` 排除。
 
-本地完整配套文件夹的 `firmware/` 保存实测 C.17 外层回退原包，使用前必须校验；仅有源码时可按固件说明自行取得可信原包。厂商固件不适用本项目的 AGPL，默认排除在 Git 提交之外。文件夹不含个人手机镜像、NV、校准备份、设备唯一标识或账户信息。
+本地完整配套文件夹的 `firmware/` 保存实测 C.17 外层回退原包。下载位置和校验方法见[固件说明](firmware/README.md)。厂商固件不适用本项目的 AGPL，默认排除在 Git 提交之外。文件夹不含个人手机镜像、NV、校准备份、设备唯一标识或账户信息。
 
 ## 六步走
 
@@ -167,6 +167,6 @@ python -m unittest discover -s tests -v
 - preloader 算法源自 Shocked-Cat / Max_Goblin，上游固定脚本及许可证位于 `third_party/`。
 - MTKClient、Python、依赖和 Windows 工具按各自许可证提供，见 [第三方说明](THIRD_PARTY_NOTICES.md)。驱动和厂商固件不因本项目而变成开源软件。
 - 提交问题时提供型号、系统版本、错误信息和脱敏截图；不要提交 `private/`、hwparam、`.state`、NV 或完整设备日志。
-- 发布流程见 [发布检查](docs/publishing.md)。GitHub 中仅提交公开源码目录，不包含本地配套二进制和厂商固件。
+- 发布流程见 [发布检查](docs/publishing.md)。Git 历史保存公开源码，厂商回退包通过 GitHub Releases 提供。
 
 原理和边界见 [实现说明](docs/implementation.md)。
